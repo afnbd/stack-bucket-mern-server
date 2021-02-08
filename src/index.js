@@ -1,6 +1,6 @@
 const express = require("express");
 const cors = require ("cors");
-const morgan = requre("morgan");
+const morgan = require("morgan");
 
 const app = express();
 app.get ('/', (req, res) =>{
